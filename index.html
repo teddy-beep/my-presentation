@@ -430,6 +430,20 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
 
+        .slide img {
+            max-width: 100%;
+            max-height: 65vh;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            transition: all 0.3s;
+        }
+
+        .slide img:hover {
+            border-color: rgba(0, 212, 255, 0.6);
+            box-shadow: 0 12px 40px rgba(0, 212, 255, 0.2);
+        }
+
         @media (max-width: 768px) {
             .slide {
                 padding: 30px;
@@ -480,13 +494,16 @@
             <li>1. System Overview</li>
             <li>2. Technology Stack</li>
             <li>3. Architecture & Design</li>
-            <li>4. Core Modules</li>
-            <li>5. Database Schema</li>
-            <li>6. API Architecture</li>
-            <li>7. Security Features</li>
-            <li>8. Integration Capabilities</li>
-            <li>9. Deployment & Infrastructure</li>
-            <li>10. Future Enhancements</li>
+            <li>4. High-Level Architecture Diagram</li>
+            <li>5. System Flow Structure Diagram</li>
+            <li>6. Core Modules</li>
+            <li>7. Database Schema</li>
+            <li>8. Complete Database ER Diagram</li>
+            <li>9. API Architecture</li>
+            <li>10. Security Features</li>
+            <li>11. Integration Capabilities</li>
+            <li>12. Deployment & Infrastructure</li>
+            <li>13. Future Enhancements</li>
         </ul>
     </div>
 
@@ -626,8 +643,24 @@
         </ul>
     </div>
 
-    <!-- Slide 8: Core Modules Overview -->
+    <!-- Slide 8: High-Level Architecture Diagram -->
     <div class="slide" data-slide="8">
+        <h1>High-Level Architecture Diagram</h1>
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="Picture1.png" alt="High-Level Architecture" style="max-width: 100%; max-height: 65vh; border-radius: 15px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); border: 2px solid rgba(0, 212, 255, 0.3);">
+        </div>
+    </div>
+
+    <!-- Slide 9: System Flow Structure Diagram -->
+    <div class="slide" data-slide="9">
+        <h1>System Flow Structure Diagram</h1>
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="Picture2.png" alt="System Flow Structure" style="max-width: 100%; max-height: 65vh; border-radius: 15px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); border: 2px solid rgba(0, 212, 255, 0.3);">
+        </div>
+    </div>
+
+    <!-- Slide 10: Core Modules Overview -->
+    <div class="slide" data-slide="10">
         <h1>4. Core Modules</h1>
         <div class="grid">
             <div class="card">
@@ -657,8 +690,8 @@
         </div>
     </div>
 
-    <!-- Slide 9: Shareholder Module Details -->
-    <div class="slide" data-slide="9">
+    <!-- Slide 11: Shareholder Module Details -->
+    <div class="slide" data-slide="11">
         <h1>Shareholder Module</h1>
         <h2>Key Components</h2>
         <div class="grid">
@@ -686,8 +719,8 @@
         </ul>
     </div>
 
-    <!-- Slide 10: Database Schema Overview -->
-    <div class="slide" data-slide="10">
+    <!-- Slide 12: Database Schema Overview -->
+    <div class="slide" data-slide="12">
         <h1>5. Database Schema</h1>
         <h2>Core Tables</h2>
         <div class="grid">
@@ -726,8 +759,16 @@
         </div>
     </div>
 
-    <!-- Slide 11: Key Database Tables -->
-    <div class="slide" data-slide="11">
+    <!-- Slide 13: Complete Database ER Diagram -->
+    <div class="slide" data-slide="13">
+        <h1>Complete Database ER Diagram</h1>
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="Picture3.png" alt="Database ER Diagram" style="max-width: 100%; max-height: 65vh; border-radius: 15px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); border: 2px solid rgba(0, 212, 255, 0.3);">
+        </div>
+    </div>
+
+    <!-- Slide 14: Key Database Tables -->
+    <div class="slide" data-slide="14">
         <h1>Key Database Tables</h1>
         <div class="table-container">
             <table>
@@ -770,8 +811,8 @@
         </div>
     </div>
 
-    <!-- Slide 12: API Architecture -->
-    <div class="slide" data-slide="12">
+    <!-- Slide 15: API Architecture -->
+    <div class="slide" data-slide="15">
         <h1>6. API Architecture</h1>
         <h2>API Overview</h2>
         <p><span class="highlight">Base URL:</span> /api/v1/</p>
@@ -803,8 +844,8 @@
         </div>
     </div>
 
-    <!-- Slide 13: API Endpoints -->
-    <div class="slide" data-slide="13">
+    <!-- Slide 16: API Endpoints -->
+    <div class="slide" data-slide="16">
         <h1>Key API Endpoints</h1>
         <div class="table-container">
             <table>
@@ -857,8 +898,8 @@
         </div>
     </div>
 
-    <!-- Slide 14: Security Features -->
-    <div class="slide" data-slide="14">
+    <!-- Slide 17: Security Features -->
+    <div class="slide" data-slide="17">
         <h1>7. Security Features</h1>
         <div class="two-column">
             <div>
@@ -888,8 +929,8 @@
         </div>
     </div>
 
-    <!-- Slide 15: Integration Capabilities -->
-    <div class="slide" data-slide="15">
+    <!-- Slide 18: Integration Capabilities -->
+    <div class="slide" data-slide="18">
         <h1>8. Integration Capabilities</h1>
         <h2>CSD Integration</h2>
         <ul>
@@ -921,8 +962,8 @@
         </div>
     </div>
 
-    <!-- Slide 16: Deployment -->
-    <div class="slide" data-slide="16">
+    <!-- Slide 19: Deployment -->
+    <div class="slide" data-slide="19">
         <h1>9. Deployment & Infrastructure</h1>
         <div class="two-column">
             <div>
@@ -956,8 +997,8 @@
         </ul>
     </div>
 
-    <!-- Slide 17: Future Enhancements -->
-    <div class="slide" data-slide="17">
+    <!-- Slide 20: Future Enhancements -->
+    <div class="slide" data-slide="20">
         <h1>10. Future Enhancements</h1>
         <div class="two-column">
             <div>
@@ -974,7 +1015,9 @@
             <div>
                 <h3>Medium-term</h3>
                 <ul>
+                    <li>Multi-company support</li>
                     <li>Advanced reporting</li>
+                    <li>Analytics dashboard</li>
                     <li>Banking API integration</li>
                     <li>SMS gateway integration</li>
                     <li>Electronic signature</li>
@@ -992,8 +1035,8 @@
         </ul>
     </div>
 
-    <!-- Slide 18: Commands Reference -->
-    <div class="slide" data-slide="18">
+    <!-- Slide 21: Commands Reference -->
+    <div class="slide" data-slide="21">
         <h1>Commands Reference</h1>
         <div class="two-column">
             <div>
@@ -1021,8 +1064,8 @@ php artisan migrate</code></pre>
         </div>
     </div>
 
-    <!-- Slide 19: Summary -->
-    <div class="slide" data-slide="19">
+    <!-- Slide 22: Summary -->
+    <div class="slide" data-slide="22">
         <h1>Summary</h1>
         <div class="grid">
             <div class="card">
@@ -1052,8 +1095,8 @@ php artisan migrate</code></pre>
         </div>
     </div>
 
-    <!-- Slide 20: Thank You -->
-    <div class="slide slide-1" data-slide="20">
+    <!-- Slide 23: Thank You -->
+    <div class="slide slide-1" data-slide="23">
         <h1>Thank You</h1>
         <h2 style="color: #00ff88; margin-top: 30px;">Questions & Discussion</h2>
         <div style="margin-top: 50px;">
@@ -1069,12 +1112,12 @@ php artisan migrate</code></pre>
     </div>
 
     <div class="slide-counter">
-        Slide <span id="currentSlide">1</span> of <span id="totalSlides">20</span>
+        Slide <span id="currentSlide">1</span> of <span id="totalSlides">23</span>
     </div>
 
     <script>
         let currentSlide = 1;
-        const totalSlides = 20;
+        const totalSlides = 23;
 
         function showSlide(n) {
             const slides = document.querySelectorAll('.slide');
